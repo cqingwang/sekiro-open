@@ -9,7 +9,7 @@
  fi
 
   if [ "$1"x = "serve"x ]; then
-       docker run -d --name rpc_server --restart=always --platform linux/amd64 -p 8010:5612 cqingwang/rpc_server:amd64
+       docker run -d --name rpc_server --restart=always --platform linux/amd64 -p 8810:5612 cqingwang/rpc_server:amd64
   fi
 
 
